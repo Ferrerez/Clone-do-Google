@@ -12,17 +12,6 @@ body {
     flex-direction: column;
 }
 
-a:link, a:visited {
-	text-decoration: none
-	}
-a:hover {
-	text-decoration: underline;
-	color: #f00
-	}
-a:active {
-	text-decoration: none
-	}
-
 
 .menu-left {
     width: 100%;
@@ -31,24 +20,22 @@ a:active {
     margin-left: 80%;
     color: black;
     font-size: 14px;
-    word-spacing: 8px;
 }
 
 .icon {
     display: flex;
     width: 25px;
     height: 25px;
-    margin-left: 88%;
-    margin-top: -4%;
+    margin-left: 89%;
+    margin-top: -5%;
 }
-
 
 .avatar {
     display: flex;
     width: 58px;
     height: 38px;
     margin-left: 89%;
-    margin-top: -2%;
+    margin-top: -3%;
 }
 
 .content {
@@ -89,38 +76,4 @@ footer {
 .nome p {
     color: black;
     font-size:15px ;
-}
-
-@media screen and (max-width: 900px) {
-  
-    .menu-left {
-        margin-left: 45%;
-    }
-
-    .icon {
-        margin-left: 71%;
-        margin-top: -12%;
-    }
-
-    .avatar {
-        margin-left: 71%;
-        margin-top: -8%;
-    }
-
-    .content-search {
-        max-width: 328px;
-        margin-left: -8%;
-      
-    }
-
-    .content-logo {
-        height: 55px;
-        margin-left: -12%;
-    }
-
-    .footer {
-        margin-top: 95%;
-        margin-left: -6%;
-    }
-  
 }
